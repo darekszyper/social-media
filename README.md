@@ -33,10 +33,7 @@ Around 5 hours.
 No, it was not. Although AI is helpful with writing code, it sometimes has problems with integrating different components. For example, it writes tests for previously written classes that are failing, or it wants to create a table named 'User,' although it's not possible in PostgreSQL because it's a reserved keyword.
 
 4. Which challenges did you face during completion of the task?
-That I needed to be very specific, if I don't tell AI to handle validation it wont even though for me it's obvious, it needs to be included in the instructions. Another examples of poorly created code because of lack of my clarificationw were: no DTOs, field based Dependency Injection.
-
 The main challenges I faced during the task included the need to be very specific. If I don't explicitly instruct the AI to handle validation, it won't do it, even though it might be obvious to me that it needs to be included in code. Other examples of poorly generated code due to a lack of my clarification were: the absence of Data Transfer Objects (DTOs) and field-based Dependency Injection.
 
 5. Which specific prompts you learned as a good practice to complete the task?
-Asking AI to generate code based on given example found on the internet.
 I found that a good practice is to ask the AI to generate code based on examples found on the internet.
